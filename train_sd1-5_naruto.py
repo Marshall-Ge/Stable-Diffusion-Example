@@ -1,6 +1,8 @@
 import logging
 import math
 import os
+from consts import *
+os.environ["HF_ENDPOINT"] = HF_ENDPOINT
 import random
 import shutil
 from contextlib import nullcontext

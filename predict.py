@@ -1,12 +1,11 @@
 import os
 from consts import *
+os.environ["HF_ENDPOINT"] = HF_ENDPOINT
 import torch
 from diffusers import StableDiffusionPipeline
 from PIL import Image
 import numpy as np
 from metrics import Evaluator
-
-os.environ["HF_ENDPOINT"] = HF_ENDPOINT
 
 output_dir = "temp_results"
 prompt = "A toilet with a calm and classical style."
