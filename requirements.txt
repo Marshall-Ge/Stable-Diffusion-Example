@@ -5,3 +5,6 @@ transformers
 diffusers
 datasets
 accelerate
+clean-fid
+pytorch_fid
+openai-clip
